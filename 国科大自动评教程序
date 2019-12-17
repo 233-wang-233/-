@@ -1,0 +1,5 @@
+var tds = document.getElementsByTagName('td');
+for(var i = tds.length-1; i>0;i--) tds[i].getElementsByTagName("input")[0].checked=true;
+
+chrome浏览器进入每个课程评教页面后，按F12调出开发者工具，选择console，将上面程序复制进去
+运行程序。
